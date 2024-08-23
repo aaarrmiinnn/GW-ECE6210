@@ -22,7 +22,7 @@ You should be able to run all the contents of this repo using the packages provi
 For `Anaconda` run this:
 ```
 conda create --name gw-ece6210 --file requirements.yml
-conda activate gw-cs6364
+conda activate gw-ece6210
 python -m ipykernel install --user --name=gw-ece6210
 ```
 
