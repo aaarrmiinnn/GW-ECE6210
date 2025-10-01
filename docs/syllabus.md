@@ -49,25 +49,25 @@ Lecture Jupyter notebook Slides will be posted on the course Github repository; 
 
 **Topics and Dates:**
 
-| Date (Wed) | Topic |
-| :---: | ----- |
-| 8/27/2025 | Intro to Machine Learning / Machine Learning Setup |
-| 9/3/2025 | Linear Regression / Calculus Overview / Gradient Descent |
-| 9/10/2025 | Classification / Probabilistic Approaches |
-| 9/17/2025 | Gaussian Discriminant Analysis |
-| 9/24/2025 | Unsupervised Learning / Clustering / Density Estimation / PCA |
-| 10/1/2025 | Support Vector Machines / Kernels |
-| 10/8/2025 | Decision Trees / Bagging and Boosting |
-| 10/15/2025 | **Midterm Exam** |
-| 10/22/2025 | Bias-Variance Tradeoff / Model Evaluation |
-| 10/29/2025 | Neural Networks and Deep Learning |
-| 11/5/2025 | Natural Language Processing |
-| 11/12/2025 | Projects from Academia and Industry |
-| 11/19/2025 | Make-Up Day (or flex topic) |
-| 11/26/2025 | ❌ **Thanksgiving Break — No class** |
-| 12/3/2025 | **Final Project Presentations** (last class) |
-| 12/11/2025 (Thu) | Reading/Make-Up Day (optional prep/support) |
-| 12/12–18/2025 | **Final Exam Period** |
+| Date (Wed)       | Topic                                       |
+|------------------|---------------------------------------------|
+| 8/27/2025        | Lecture 1: Introduction                     |
+| 9/3/2025         | Lecture 2: Machine Learning Setup            |
+| 9/10/2025        | Lecture 3: Linear Regression                |
+| 9/17/2025        | Lecture 4: Classification                   |
+| 9/24/2025        | Lecture 5: Foundations of Supervised Learning |
+| 10/1/2025        | Lecture 6: Generative vs. Discriminative    |
+| 10/8/2025        | Lecture 7: Gaussian Mixture Models          |
+| 10/15/2025       | Lecture 8: Unsupervised Learning            |
+| 10/22/2025       | **Midterm Exam**                            |
+| 10/29/2025       | Lecture 9: Clustering                       |
+| 11/5/2025        | Lecture 10: Support Vector Machines          |
+| 11/12/2025       | Lecture 11: Neural Networks                 |
+| 11/19/2025       | Lecture 12: Deep Learning                   |
+| 11/26/2025       | ❌ Thanksgiving Break — No Class             |
+| 12/3/2025        | Lecture 13: Decision Trees / Ensemble Methods |
+| 12/10/2025       | **Final Project Presentations (Last Class)** |
+| 12/12–18/2025    | **Final Exam Period**                       |
 
 ### **University Policies:** 
 
