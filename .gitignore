@@ -119,3 +119,7 @@ dmypy.json
 CLAUDE.md
 claude-flow.config.js
 *.claude-flow.*
+
+
+# DS stire
+.DS_Store*
