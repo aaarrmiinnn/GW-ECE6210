@@ -1,111 +1,126 @@
-# GWU ECE6210 - Machine Intelligence
-## Course Syllabus
+# GWU ECE6210: Machine Intelligence
 
-**Semester:** *Fall 2025* 
+## Fall 2026 syllabus
 
-**Meeting time:** *Wednesdays* 5:30pm - 7:30pm Baku time / 9:30am - 11:30am US ET
+**Instructor:** Armin Mehrabian
 
-**Location:** *Online*
+**Email:** armin@gwu.edu
 
-**Instructor:** *Armin Mehrabian (armin@gwu.edu)*
+**Delivery:** Online lectures with in-person midterm and final examinations
 
-**Learning outcomes:** In this course, students will study foundational algorithms and concepts including regression, classification, probabilistic approaches, and kernel methods. The functionalities of the Support Vector Machine (SVM), logistic regression, ensemble methods, and boosting will be examined. The course emphasizes state-of-the-art deep learning and Natural Language Processing (NLP) frameworks, both integral to modern industry applications. Detailed discussions will cover clustering with K-Means and Gaussian Mixture Models (GMM), Principal Component Analysis (PCA), feature selection, the bias-variance tradeoff, and parameter tuning. In addition, the course introduces considerations of how algorithms interact with computational resources, highlighting practical aspects of efficiency and implementation when deploying intelligent systems. Real-world industry use cases will be presented throughout to align theoretical knowledge with practical application.
+**Meeting time:** Wednesday, 9:30 a.m. to 11:30 a.m. Washington, DC time
 
-**Average amount of direct instruction or guided interaction with the instructor and average minimum amount of independent (out-of-class) learning expected per week:** 2.5 hours of direct instruction and a minimum of 10 hours of independent learning, totaling a minimum of **12.5** hours per week. 
+**Office hours:** Online by appointment
 
-**Course organization and grading:**
+### Time in Baku
 
-| Criteria | Final Grade Decomposition |
-| :---- | :---: |
-| **Midterm Exam** | 40% |
-| **Final Exam** | 40% |
-| **Final project** (Groups of 2) | 20% |
+- August 26 through October 28: 5:30 p.m. to 7:30 p.m.
+- November 4 through December 2: 6:30 p.m. to 8:30 p.m.
 
-Final grade criteria will not be harsher than: 
+Washington, DC ends daylight saving time on November 1, 2026. Baku does not change its clock.
 
-**90%** → **A-** or better
+## Course description
 
-**80%** → **B-** or better
+This course introduces the foundations of machine learning for Electrical Engineering students. The course studies regression, classification, probabilistic models, dimensionality reduction, clustering, neural networks, and model evaluation.
 
-**70%** → **C-** or better
+The course connects machine learning with engineering measurements and physical systems. Examples include sensor calibration, signal classification, fault detection, correlated measurements, and one-dimensional convolution.
 
-**The main requirements for this course are:**
+Hardware is discussed as an implementation constraint. The course considers computation, memory, latency, energy, and numerical precision. The course does not cover VLSI design, HDL programming, or processor design.
 
-* **Programming:** Preferably in Python.  
-* **Linear Algebra:** Matrix operations, eigenvectors, SVD, etc.  
-* **Probability:** Probability distributions, random variables, Bayes' rule, etc.
+## Learning outcomes
 
-*Note: This course does not assume any prior ML experience.*
+After completing the course, students should be able to:
 
-### **Textbooks** (Recommended, NOT required)
+1. Formulate an engineering problem as a supervised or unsupervised learning problem.
+2. Explain the roles of the model, objective function, and optimizer.
+3. Apply linear regression, logistic regression, probabilistic classification, PCA, clustering, neural networks, and tree-based models.
+4. Evaluate generalization using suitable validation procedures and metrics.
+5. Identify data leakage, overfitting, underfitting, and distribution shift.
+6. Interpret the effect of noise, regularization, and limited data.
+7. Estimate basic computation and memory requirements of a model.
+8. Select a model using accuracy, interpretability, latency, and memory requirements.
 
-* **Pattern Recognition and Machine Learning by Christopher Bishop.**  
-* **The Elements of Statistical Learning by Trevor Hastie *et al.* - available online**   
-* **Machine Learning: A Probabilistic Perspective by Kevin Murphy.**
+## Prerequisites
 
-Lecture Jupyter notebook Slides will be posted on the course Github repository; but may not be available before class.
+Students should have basic knowledge of:
 
-**Course Jupyter Notebook Slide Github page: [https://github.com/aaarrmiinnn/GW-ECE6210/tree/fall-2025](https://github.com/aaarrmiinnn/GW-ECE6210/tree/fall-2025)**
+- Programming in Python, MATLAB, C, or C++
+- Matrix operations and eigenvectors
+- Probability distributions and Bayes' rule
+- Basic signals and systems
 
-**Topics and Dates:**
+Prior machine learning study is not required. VLSI, HDL, and computer architecture are not required.
 
-| Date (Wed)       | Topic                                       |
-|------------------|---------------------------------------------|
-| 8/27/2025        | Lecture 1: Introduction                     |
-| 9/3/2025         | Lecture 2: Machine Learning Setup            |
-| 9/10/2025        | Lecture 3: Linear Regression                |
-| 9/17/2025        | Lecture 4: Classification                   |
-| 9/24/2025        | Lecture 5: Foundations of Supervised Learning |
-| 10/1/2025        | Lecture 6: Generative vs. Discriminative    |
-| 10/8/2025        | Lecture 7: Gaussian Mixture Models          |
-| 10/15/2025       | Lecture 8: Unsupervised Learning            |
-| 10/22/2025       | **Midterm Exam**                            |
-| 10/29/2025       | Lecture 9: Clustering                       |
-| 11/5/2025        | Lecture 10: Support Vector Machines          |
-| 11/12/2025       | Lecture 11: Neural Networks                 |
-| 11/19/2025       | Lecture 12: Deep Learning                   |
-| 11/26/2025       | ❌ Thanksgiving Break — No Class             |
-| 12/3/2025        | Lecture 13: Decision Trees / Ensemble Methods |
-| 12/10/2025       | **Final Project Presentations (Last Class)** |
-| 12/12–18/2025    | **Final Exam Period**                       |
+## Course organization and grading
 
-### **University Policies:** 
+| Assessment | Final grade |
+|---|---:|
+| In-person midterm examination | 40% |
+| In-person final examination | 40% |
+| Group project, two students per group | 20% |
 
-**University Policy on Religious Holidays**:
+Short notebook exercises will be used for practice. They will prepare students for the examinations and project.
 
-Students should notify faculty during the first week of the semester of their intention to be absent from class on their day(s) of religious observance. 
+The final grade criteria will not be harsher than:
 
-Faculty should extend to these students the courtesy of absence without penalty on such occasions, including permission to make up examinations.
+- 90%: A- or better
+- 80%: B- or better
+- 70%: C- or better
 
-Faculty who intend to observe a religious holiday should arrange at the beginning of the semester to reschedule missed classes or to make other provisions for their course-related activities.
+## Topics and dates
 
-**Support for Students Outside the Classroom:** *Disability Support Services (DSS)* 
+| Date | Format | Topic |
+|---|---|---|
+| August 26 | Online | Lecture 1: Machine learning for electrical engineers |
+| September 2 | Online | Lecture 2: Data, models, objectives, and optimization |
+| September 9 | Online | Lecture 3: Linear regression and least squares |
+| September 16 | Online | Lecture 4: Classification and logistic regression |
+| September 23 | Online | Lecture 5: Generalization, regularization, and evaluation |
+| September 30 | Online | Lecture 6: Probabilistic classification and uncertainty |
+| October 7 | Online | Lecture 7: PCA and clustering |
+| October 14 | Online | Midterm review and project proposal clinic |
+| October 21 | In person | Midterm examination |
+| October 28 | Online | Lecture 8: Neural networks and backpropagation |
+| November 4 | Online | Lecture 9: Deep learning for one-dimensional signals |
+| November 11 | Online | Lecture 10: Trees, ensembles, and model comparison |
+| November 18 | Online | Engineering case study and hardware-aware inference |
+| November 25 | No class | Thanksgiving Break |
+| December 2 | Online | Project presentations and final review |
+| December 11 to 17 | In person | Final examination period. Exact date to be assigned. |
 
-Any student who may need an accommodation based on the potential impact of a disability should contact the Disability Support Services office at **202-994-8250** in the **Rome Hall, Suite 102,** to establish eligibility and to coordinate reasonable accommodations. For additional information please refer to: [https://disabilitysupport.gwu.edu/](https://disabilitysupport.gwu.edu/) 
+The last regular day of classes is December 8. December 9 follows a designated Monday schedule and does not include the regular Wednesday meeting.
 
-**Mental Health Services 202-994-5300** 
+## Group project
 
-The University's Mental Health Services offers 24/7 assistance and referral to address students' personal, social, career, and study skills problems. Services for students include: crisis and emergency mental health consultations, confidential assessment, counseling services (individual and small group), and referrals. 
+The project applies machine learning to an engineering problem. Suitable topics include signals, sensing, communications, control, energy systems, biomedical measurements, and fault detection.
 
-[https://healthcenter.gwu.edu/counseling-and-psychological-services](https://healthcenter.gwu.edu/counseling-and-psychological-services)
+The project should include:
 
-**Academic Integrity Code** 
+- A clear engineering question
+- A suitable dataset or simulation
+- A baseline method
+- A validation procedure
+- Quantitative results
+- A short analysis of computation, memory, or latency
 
-Academic dishonesty is defined as cheating of any kind, including misrepresenting one's own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information. For the remainder of the code, see: [https://studentconduct.gwu.edu/code-academic-integrity](https://studentconduct.gwu.edu/code-academic-integrity)
+Hardware implementation is optional. It is not required.
 
-**Attendance Requirements:**  
-Online attendance in lectures is mandatory and necessary for adequate performance in the class. Instruction begins on the first day of class. Three or more unexcused absences may result in your withdrawal from the class or a failing grade for the semester. It is your responsibility to initiate a withdrawal from the class. Failure to do so may result in a failing grade for the semester.
+## Textbooks
 
-[https://registrar.gwu.edu/university-policies#attendance](https://registrar.gwu.edu/university-policies#attendance)
+The following books are recommended:
 
-**Late work:** You must turn in all assignments **complete** and **on time**. *Complete* means you have done everything specified in the assignment instructions. *On time* means within the due date set on the Blackboard. We allow for a maximum of 2 days of late submission for each homework assignment.
+- Christopher Bishop, *Pattern Recognition and Machine Learning*
+- Trevor Hastie, Robert Tibshirani, and Jerome Friedman, *The Elements of Statistical Learning*
+- Kevin Murphy, *Machine Learning: A Probabilistic Perspective*
 
-**Generative AI Usage Guidelines:**
+## Attendance and late work
 
-You have permission to utilize generative AI. Should you opt to do so, you **MUST** disclose and include a description detailing its application.
+Online attendance is expected. Students should notify the instructor when an absence is necessary.
 
-CAUTION: Refrain from copying responses from generative platforms. Based on my observations, such responses to academic queries contain significant errors.
+Work should be complete and submitted by the stated deadline. A maximum extension of two days may be used for a project deliverable unless a different arrangement is approved.
 
----
+## University policies
 
-The information in this syllabus is subject to change based on the discretion of the instructor. You will be notified by the instructor of any changes in course requirements or policies.
+Students should follow current GW policies on academic integrity, religious holidays, accessibility, attendance, and student support. Students who require an accommodation should contact Disability Support Services and notify the instructor.
+
+The syllabus may be revised when necessary. Any revision will be announced to the class.

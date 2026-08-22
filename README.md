@@ -1,152 +1,88 @@
-# GWU ECE6210 - Machine Intelligence
+# GWU ECE6210: Machine Intelligence
 
-This repository contains interactive Jupyter notebook slides for the ECE Machine Intelligence course at The George Washington University (Fall 2025 edition).
+This repository contains the Fall 2026 course materials for ECE6210 at The George Washington University.
 
-## 📁 Repository Structure
+The course is offered online. The midterm and final examinations are held in person.
 
-```
-GW-ECE6210/
-├── README.md                           # This file
-├── docs/
-│   └── syllabus.md                    # Course syllabus
-├── slides/
-│   ├── lecture1-introduction.ipynb    # Lecture 1: Intro to ML
-│   ├── lecture2-machine-learning-setup.ipynb  # Lecture 2: ML Setup
-│   └── img/                           # Images used in lectures
-├── requirements.txt                    # Python packages (pip)
-└── requirements.yml                    # Python packages (conda)
-```
+## Course materials
 
-## 🎯 How to Use These Slides
+The `slides/` directory contains interactive Jupyter notebooks. The notebooks use RISE for presentation.
 
-The course slides are **interactive Jupyter notebooks** that contain:
-- Lecture content with explanations
-- Runnable Python code examples
-- Visualizations and plots
-- Exercises and demonstrations
+Each notebook contains:
 
-### Prerequisites
-- Basic comfort with computers and file management
-- No prior programming experience required!
+- Mathematical definitions and derivations
+- Short Python demonstrations
+- Engineering examples
+- Review questions
+- RISE slide metadata
 
-## 🚀 Getting Started
+The course is designed for MS Electrical Engineering students. It does not require prior machine learning study. Students should have basic knowledge of programming, linear algebra, probability, and signals.
 
-You have **two options** to run these slides:
+## Fall 2026 meeting time
 
-### Option 1: Anaconda (Recommended for Beginners)
+The online class meets on Wednesday from 9:30 a.m. to 11:30 a.m. Washington, DC time.
 
-**Anaconda** is a Python distribution that includes everything you need in one package.
+- August 26 through October 28: 5:30 p.m. to 7:30 p.m. in Baku
+- November 4 through December 2: 6:30 p.m. to 8:30 p.m. in Baku
 
-#### Step 1: Install Anaconda
-1. Go to [anaconda.com/download](https://www.anaconda.com/download)
-2. Download the installer for your operating system
-3. Run the installer and follow the prompts
-4. Choose "Just Me" installation (recommended)
+There is no class on November 25. The last regular Wednesday meeting is December 2.
 
-#### Step 2: Download Course Materials
-1. Click the green "Code" button at the top of this page
-2. Select "Download ZIP"
-3. Extract the ZIP file to your desired location (e.g., Desktop or Documents)
+## Environment setup
 
-#### Step 3: Set Up the Environment
-1. Open **Anaconda Prompt** (Windows) or **Terminal** (Mac/Linux)
-2. Navigate to the course folder:
-   ```bash
-   cd path/to/GW-ECE6210
-   ```
-3. Create the course environment:
-   ```bash
-   conda create --name gw-ece6210 --file requirements.yml
-   ```
-4. Activate the environment:
-   ```bash
-   conda activate gw-ece6210
-   ```
-5. Install Jupyter kernel:
-   ```bash
-   python -m ipykernel install --user --name=gw-ece6210
-   ```
+Python 3.10 or 3.11 is recommended.
 
-#### Step 4: Launch Jupyter
+### Conda
+
 ```bash
-jupyter lab
+conda env create -f requirements.yml
+conda activate gw-ece6210
+jupyter notebook
 ```
-Your web browser will open with JupyterLab. Navigate to the `slides/` folder and open any `.ipynb` file!
 
-### Option 2: Python + pip (For Users with Python Experience)
+### Python virtual environment
 
-If you already have Python installed:
-
-#### Step 1: Install Python
-- Download from [python.org/downloads](https://www.python.org/downloads/)
-- Install Python 3.8 or newer
-
-#### Step 2: Create Virtual Environment
 ```bash
-# Navigate to course folder
-cd path/to/GW-ECE6210
-
-# Create virtual environment
 python -m venv .venv
-
-# Activate virtual environment
-# On Windows:
-.venv\Scripts\activate
-# On Mac/Linux:
 source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+jupyter notebook
 ```
 
-#### Step 3: Install Required Packages
+On Windows, activate the environment with:
+
+```powershell
+.venv\Scripts\activate
+```
+
+## Presenting with RISE
+
+Start the classic Jupyter Notebook interface:
+
 ```bash
-pip install -r requirements.txt
+jupyter notebook
 ```
 
-#### Step 4: Launch Jupyter
+Open a notebook in `slides/`. Select the RISE presentation button. The slide structure is stored in each cell under `metadata.slideshow.slide_type`.
+
+Run the notebook before presenting. Confirm that all figures appear and that no code cell reports an error.
+
+## Deck validation
+
+Run the local validator before presenting a deck:
+
 ```bash
-jupyter lab
+python scripts/validate_deck.py slides/lecture1-introduction.ipynb
 ```
 
-## 📚 Running the Slides
+The validator checks notebook structure, RISE metadata, Python syntax, local image references, stored execution errors, and course writing rules.
 
-1. **Open JupyterLab** in your browser (should open automatically)
-2. **Navigate** to the `slides/` folder
-3. **Click** on any `.ipynb` file to open it
-4. **Run cells** by clicking the ▶️ button or pressing `Shift + Enter`
+## Student guidance
 
-### Tips for Non-CS Students:
-- 🔹 **Don't worry about understanding every line of code** - focus on the concepts!
-- 🔹 **Run cells in order** from top to bottom
-- 🔹 **Experiment!** Try changing numbers in the code to see what happens
-- 🔹 **Ask for help** if you get stuck - that's what office hours are for!
+- Run notebook cells in order.
+- Focus on the engineering meaning of each result.
+- Ask for help when an environment or programming issue blocks the analysis.
 
-## 🛠️ Troubleshooting
+## Credits
 
-### Common Issues:
-
-**"Command not found" or "conda not recognized"**
-- Restart your terminal/command prompt after installing Anaconda
-- On Windows, make sure you're using "Anaconda Prompt"
-
-**"ModuleNotFoundError"**
-- Make sure you activated your environment: `conda activate gw-ece6210`
-- Try reinstalling packages: `pip install -r requirements.txt`
-
-**Jupyter won't start**
-- Check that Jupyter is installed: `jupyter --version`
-- Try `jupyter notebook` instead of `jupyter lab`
-
-**Still having issues?**
-- Check the [Jupyter documentation](https://jupyter.org/install)
-- Visit office hours or ask on the course forum
-- Email the instructor: armin@gwu.edu
-
-## 🔗 Helpful Resources
-
-- **Python for Beginners**: [wiki.python.org/moin/BeginnersGuide](https://wiki.python.org/moin/BeginnersGuide)
-- **Try Jupyter Online**: [jupyter.org/try](https://jupyter.org/try)
-- **Virtual Environments**: [docs.python.org/3/tutorial/venv.html](https://docs.python.org/3/tutorial/venv.html)
-- **Anaconda Documentation**: [anaconda.com/docs](https://www.anaconda.com/docs/main)
-
-## 📝 Credits
-
-The slides and course materials are based on Cornell CS5785 (https://github.com/kuleshov/cornell-cs5785-2023-applied-ml), courtesy of Volodymyr Kuleshov, and adapted for GWU ECE6210.
+The original course materials were based on Cornell CS5785 Applied Machine Learning. The Fall 2026 edition is adapted for ECE6210 and for MS Electrical Engineering students.
