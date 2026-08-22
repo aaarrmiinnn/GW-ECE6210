@@ -101,7 +101,8 @@ Hardware content is limited and distributed across the course.
 
 Each online deck should contain:
 
-- 30 to 45 presented cells
+- Preserve the useful examples and derivations in the existing deck
+- Use approximately 50 to 70 presented cells when the material requires them
 - One main derivation
 - One main code demonstration
 - One short student activity

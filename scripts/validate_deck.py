@@ -99,9 +99,9 @@ def validate(path: Path) -> tuple[list[str], list[str]]:
                     value = output.get("evalue", "")
                     errors.append(f"Cell {index}: stored execution error {name}: {value}.")
 
-    if presented_cells > 45:
+    if presented_cells > 70:
         warnings.append(
-            f"Deck has {presented_cells} presented cells. The course target is at most 45."
+            f"Deck has {presented_cells} presented cells. Review the pacing above 70."
         )
 
     return errors, warnings
