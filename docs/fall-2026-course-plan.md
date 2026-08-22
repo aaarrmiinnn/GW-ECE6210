@@ -18,7 +18,9 @@
 - Define machine learning using engineering measurements.
 - Distinguish supervised, unsupervised, and reinforcement learning.
 - Introduce computation, memory, latency, and numerical precision.
-- Main example: sensor calibration.
+- Retain familiar, scientific, and engineering applications.
+- Include recent examples from weather forecasting, biomolecular prediction, and robotics.
+- Demonstrate regression and clustering using compact datasets.
 
 ### Lecture 2: Data, models, objectives, and optimization
 
