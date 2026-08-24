@@ -13,6 +13,7 @@ deck_dir="$(cd "$(dirname "$deck")" && pwd)"
 output_dir="${TMPDIR:-/tmp}/gw-ece6210-rise/${deck_name}"
 python_command="${PYTHON:-python3}"
 jupyter_command="${JUPYTER:-jupyter}"
+kernel_name="${KERNEL_NAME:-python3}"
 
 mkdir -p "$output_dir"
 
@@ -25,6 +26,7 @@ fi
 "$jupyter_command" nbconvert \
   --to notebook \
   --execute "$deck" \
+  --ExecutePreprocessor.kernel_name="$kernel_name" \
   --ExecutePreprocessor.timeout=180 \
   --output "${deck_name}-executed.ipynb" \
   --output-dir "$output_dir"
