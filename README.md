@@ -16,6 +16,8 @@ The Zoom link for the class can be found under Announcements on Blackboard.
 
 A detailed version of the syllabus is available in [`docs/syllabus.md`](docs/syllabus.md).
 
+The [`docs/welcome-to-class.md`](docs/welcome-to-class.md) announcement contains the first-class preparation steps and essential links.
+
 ### Time in Baku
 
 - August 26 through October 28: 5:30 p.m. to 7:30 p.m.
@@ -29,7 +31,8 @@ Washington, DC ends daylight saving time on November 1, 2026. Baku does not chan
 |---|---:|
 | In-person midterm examination | 40% |
 | In-person final examination | 40% |
-| Group project, two students per group | 20% |
+| Group project and final presentation, two students per group | 18% |
+| Class participation | 2% |
 
 ### Course schedule
 

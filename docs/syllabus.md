@@ -12,6 +12,8 @@
 
 **Office hours:** Online by appointment
 
+The Zoom link for the class can be found under Announcements on Blackboard.
+
 ### Time in Baku
 
 - August 26 through October 28: 5:30 p.m. to 7:30 p.m.
@@ -57,7 +59,8 @@ Prior machine learning study is not required. VLSI, HDL, and computer architectu
 |---|---:|
 | In-person midterm examination | 40% |
 | In-person final examination | 40% |
-| Group project, two students per group | 20% |
+| Group project and final presentation, two students per group | 18% |
+| Class participation | 2% |
 
 Short notebook exercises will be used for practice. They will prepare students for the examinations and project.
 
@@ -116,6 +119,8 @@ The following books are recommended:
 ## Attendance and late work
 
 Online attendance is expected. Students should notify the instructor when an absence is necessary.
+
+Class participation is 2% of the final grade. Participation includes questions, responses, short class activities, discussion, and relevant use of the Zoom chat. Students are encouraged to turn on their camera when circumstances permit. The participation grade is not based only on camera use.
 
 Work should be complete and submitted by the stated deadline. A maximum extension of two days may be used for a project deliverable unless a different arrangement is approved.
 
