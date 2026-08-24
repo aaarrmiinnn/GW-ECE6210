@@ -4,6 +4,58 @@ This repository contains the Fall 2026 course materials for ECE6210 at The Georg
 
 The course is offered online. The midterm and final examinations are held in person.
 
+## Fall 2026 syllabus
+
+- **Instructor:** Armin Mehrabian
+- **Email:** armin@gwu.edu
+- **Delivery:** Online lectures with in-person midterm and final examinations
+- **Meeting time:** Wednesday, 9:30 a.m. to 11:30 a.m. Washington, DC time
+- **Office hours:** Online by appointment
+
+The Zoom link for the class can be found under Announcements on Blackboard.
+
+A detailed version of the syllabus is available in [`docs/syllabus.md`](docs/syllabus.md).
+
+### Time in Baku
+
+- August 26 through October 28: 5:30 p.m. to 7:30 p.m.
+- November 4 through December 2: 6:30 p.m. to 8:30 p.m.
+
+Washington, DC ends daylight saving time on November 1, 2026. Baku does not change its clock.
+
+### Assessment
+
+| Assessment | Final grade |
+|---|---:|
+| In-person midterm examination | 40% |
+| In-person final examination | 40% |
+| Group project, two students per group | 20% |
+
+### Course schedule
+
+The syllabus and course schedule are subject to change. Any change will be announced on Blackboard.
+
+| Date | Format | Topic |
+|---|---|---|
+| August 26 | Online | Lecture 1: Machine learning for electrical engineers |
+| September 2 | Online | Lecture 2: Data, models, objectives, and optimization |
+| September 9 | Online | Lecture 3: Linear regression and least squares |
+| September 16 | Online | Lecture 4: Classification and logistic regression |
+| September 23 | Online | Lecture 5: Generalization, regularization, and evaluation |
+| September 30 | Online | Lecture 6: Probabilistic classification and uncertainty |
+| October 7 | Online | Lecture 7: PCA and clustering |
+| October 14 | Online | Midterm review and project proposal clinic |
+| October 21 | In person | Midterm examination |
+| October 28 | Online | Lecture 8: Neural networks and backpropagation |
+| November 4 | Online | Lecture 9: Deep learning for one-dimensional signals |
+| November 11 | Online | Lecture 10: Trees, ensembles, and model comparison |
+| November 18 | Online | Engineering case study and hardware-aware inference |
+| November 25 | No class | Thanksgiving Break |
+| December 2 | Online | Project presentations and final review |
+| December 11 to 17 | In person | Final examination period. Exact date to be assigned. |
+
+The [GW academic calendar](https://www.gwu.edu/academic-calendar) lists Thanksgiving Break from November 23 through November 28. The last regular day of classes is December 8. December 9 follows a designated Monday schedule and does not include the regular Wednesday meeting.
+
 ## Course materials
 
 The `slides/` directory contains interactive Jupyter notebooks. The notebooks use RISE for presentation.
@@ -17,15 +69,6 @@ Each notebook contains:
 - RISE slide metadata
 
 The course is designed for MS Electrical Engineering students. It does not require prior machine learning study. Students should have basic knowledge of programming, linear algebra, probability, and signals.
-
-## Fall 2026 meeting time
-
-The online class meets on Wednesday from 9:30 a.m. to 11:30 a.m. Washington, DC time.
-
-- August 26 through October 28: 5:30 p.m. to 7:30 p.m. in Baku
-- November 4 through December 2: 6:30 p.m. to 8:30 p.m. in Baku
-
-There is no class on November 25. The last regular Wednesday meeting is December 2.
 
 ## Environment setup
 
