@@ -32,6 +32,16 @@ Washington, DC ends daylight saving time on November 1, 2026. Baku does not chan
 | Group project and final presentation, two students per group | 18% |
 | Class participation | 2% |
 
+### Course policies
+
+#### Attendance
+
+Students are required to attend every lecture. No more than three absences are permitted during the semester.
+
+#### Use of AI tools
+
+The use of AI tools is allowed. Any use of an AI tool for an assignment, report, presentation, code, or project must be disclosed in the submitted work. The disclosure must identify the tool and briefly explain how it was used. Students remain responsible for the accuracy of their work and must be able to explain what they submit.
+
 ### Course schedule
 
 The syllabus and course schedule are subject to change. Any change will be announced on Blackboard.
