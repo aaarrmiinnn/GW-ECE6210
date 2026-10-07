@@ -23,9 +23,9 @@ Washington, DC ends daylight saving time on November 1, 2026. Baku does not chan
 
 ## Course description
 
-This course introduces the foundations of machine learning for Electrical Engineering students. The course studies regression, classification, probabilistic models, dimensionality reduction, clustering, neural networks, and model evaluation.
+This course introduces the foundations of machine learning for Electrical Engineering students. The course studies regression, classification, probabilistic models, clustering, neural networks, and model evaluation.
 
-The course connects machine learning with engineering measurements and physical systems. Examples include sensor calibration, signal classification, fault detection, correlated measurements, and one-dimensional convolution.
+The course connects machine learning with engineering measurements and physical systems. Examples include sensor calibration, signal classification, fault detection, and one-dimensional convolution.
 
 Hardware is discussed as an implementation constraint. The course considers computation, memory, latency, energy, and numerical precision. The course does not cover VLSI design, HDL programming, or processor design.
 
@@ -35,7 +35,7 @@ After completing the course, students should be able to:
 
 1. Formulate an engineering problem as a supervised or unsupervised learning problem.
 2. Explain the roles of the model, objective function, and optimizer.
-3. Apply linear regression, logistic regression, probabilistic classification, PCA, clustering, neural networks, and tree-based models.
+3. Apply linear regression, logistic regression, probabilistic classification, clustering, neural networks, and tree-based models.
 4. Evaluate generalization using suitable validation procedures and metrics.
 5. Identify data leakage, overfitting, underfitting, and distribution shift.
 6. Interpret the effect of noise, regularization, and limited data.
@@ -80,8 +80,8 @@ The final grade criteria will not be harsher than:
 | September 16 | Online | Lecture 4: Classification and logistic regression |
 | September 23 | Online | Lecture 5: Generalization, regularization, and evaluation |
 | September 30 | Online | Lecture 6: Probabilistic classification and uncertainty |
-| October 7 | Online | Lecture 7: PCA and clustering |
-| October 14 | Online | Midterm review and project proposal clinic |
+| October 7 | Online | Lecture 7: Unsupervised learning and clustering |
+| October 14 | Online | Midterm review and [mid-semester project presentations](mid-semester-presentation.md) |
 | October 21 | In person | Midterm examination |
 | October 28 | Online | Lecture 8: Neural networks and backpropagation |
 | November 4 | Online | Lecture 9: Deep learning for one-dimensional signals |
@@ -107,6 +107,8 @@ The project should include:
 - A short analysis of computation, memory, or latency
 
 Hardware implementation is optional. It is not required.
+
+Each team gives a mid-semester project presentation. The requirements are in [`mid-semester-presentation.md`](mid-semester-presentation.md).
 
 ## Textbooks
 

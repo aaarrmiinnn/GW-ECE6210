@@ -16,6 +16,8 @@ The Zoom link for the class can be found under Announcements on Blackboard.
 
 A detailed version of the syllabus is available in [`docs/syllabus.md`](docs/syllabus.md).
 
+The mid-semester project presentation guide is in [`docs/mid-semester-presentation.md`](docs/mid-semester-presentation.md).
+
 ### Time in Baku
 
 - August 26 through October 28: 5:30 p.m. to 7:30 p.m.
@@ -54,8 +56,8 @@ The syllabus and course schedule are subject to change. Any change will be annou
 | September 16 | Online | Lecture 4: Classification and logistic regression |
 | September 23 | Online | Lecture 5: Generalization, regularization, and evaluation |
 | September 30 | Online | Lecture 6: Probabilistic classification and uncertainty |
-| October 7 | Online | Lecture 7: PCA and clustering |
-| October 14 | Online | Midterm review and project proposal clinic |
+| October 7 | Online | Lecture 7: Unsupervised learning and clustering |
+| October 14 | Online | Midterm review and [mid-semester project presentations](docs/mid-semester-presentation.md) |
 | October 21 | In person | Midterm examination |
 | October 28 | Online | Lecture 8: Neural networks and backpropagation |
 | November 4 | Online | Lecture 9: Deep learning for one-dimensional signals |

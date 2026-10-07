@@ -57,9 +57,9 @@
 - Interpret posterior probabilities and uncertainty.
 - Main example: classification under measurement noise.
 
-### Lecture 7: PCA and clustering
+### Lecture 7: Unsupervised learning and clustering
 
-- Derive PCA using covariance and eigenvectors.
+- Define the unsupervised learning setup.
 - Apply K-means to unlabeled measurements.
 - Introduce GMM and EM as optional advanced material.
 - Main example: operating regimes in sensor data.
@@ -93,7 +93,6 @@ Hardware content is limited and distributed across the course.
 |---|---|
 | Linear regression | Is a matrix inverse necessary? What memory is required? |
 | Regularization | Can sparsity reduce storage and computation? |
-| PCA | Can fewer features reduce sensing, storage, or transmission cost? |
 | Neural networks | What operations dominate inference? |
 | Convolution | How does a learned filter differ from a fixed digital filter? |
 | Model evaluation | What are the latency, memory, and precision requirements? |
